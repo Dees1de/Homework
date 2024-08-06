@@ -61,7 +61,7 @@ class Urtube:
         for i in ur.videos:
             if wf.lower() in i.title.lower():
                 finds.append(i.title)
-        print(finds)
+        return finds
 
 
     def watch_video(self, namevideo):
